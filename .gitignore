@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Testing caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit configurations & secrets
+.streamlit/secrets.toml
+
+# Sample demo data (preserve .gitkeep)
+sample_data/*
+!sample_data/.gitkeep
+
+# Temporary / OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
